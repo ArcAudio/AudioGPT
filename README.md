@@ -15,3 +15,5 @@ with single drum loop this proved challenging. With a larger dataset of ~2m toke
 Future explorations will be using Hugging face's transformer library, with Blurr and Fastxtend/Fast Ai or Mosaic. Mixed P, fused optimisers and torch compile should give some training increases. 
 
 I'll do some other tests, making tokenisers for audio, sentence piece, specific for BERT, and Unigram (t5 models). I'd like to shift my attention to BERT models, and potentially fine tuning a BERT/DistilBERT model to generate audio. 
+
+Also to note I've been using Encodec as the vector quantiser (MIT licence), and using n_q = 4 for the test so far. n_q = 2, has good enough results for drums, so I'm gonna try that next. And just train on drum loops or continuous notes/ one shot bass sounds. My reasoning for attempting on continuous notes/one shots as there may be more self similarity of the tokens of continous notes. 
