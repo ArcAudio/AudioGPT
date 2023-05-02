@@ -14,4 +14,4 @@ with single drum loop this proved challenging. With a larger dataset of ~2m toke
 
 Future explorations will be using Hugging face's transformer library, with Blurr and Fastxtend/Fast Ai or Mosaic. Mixed P, fused optimisers and torch compile should give some training increases. 
 
-I'll do some other tests, making tokeniser for audio, sentence piece, specific for BERT, and Unigram (t5 models). I'd like o shift my attention to BERT models, and potentially fine tuning a BERT/DistilBERT model to generate audio. 
+I'll do some other tests, making tokenisers for audio, sentence piece, specific for BERT, and Unigram (t5 models). I'd like o shift my attention to BERT models, and potentially fine tuning a BERT/DistilBERT model to generate audio. 
